@@ -44,3 +44,11 @@ The problem seems to be specific to asynchronous imports.
 ## Bun GitHub issue
 
 https://github.com/oven-sh/bun/issues/9862
+
+## See also
+
+I have also discovered an issue with `onResolve` not being fired for custom
+protocol:
+
+- https://github.com/TomasHubelbauer/bun-runtime-plugin-onResolve-custom-protocol
+- https://github.com/oven-sh/bun/issues/9863

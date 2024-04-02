@@ -40,3 +40,7 @@ Error loading async demo error: ENOENT reading "file:/…/async.ts"
 ```
 
 The problem seems to be specific to asynchronous imports.
+
+## Bun GitHub issue
+
+https://github.com/oven-sh/bun/issues/9862
